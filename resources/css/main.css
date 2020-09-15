@@ -1,0 +1,76 @@
+html, body {
+    margin: 0;
+    overflow-x: hidden;
+    height: 100%;
+}
+
+
+#contador{
+    position: absolute;
+    right: 0;
+    width: 200px;
+    border: gold 2px double;
+    background-color: beige;
+    font-weight: bold;
+    text-align: center;
+}
+
+#fundo{
+    background: url("../image/landscape.jfif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    background-position-y: 60%;
+}
+
+#campo{
+    background: url("../image/field.png");
+    height: 160px;
+    position: relative;
+    bottom: -100%;
+    background-size: cover;
+    transform: translateY(-160px);
+}
+
+.animar {
+    animation: mover 1.349s linear infinite;
+}
+
+@keyframes mover{
+    0% { background-position-x: 100%;} 
+    100% { background-position-x: 0%; }
+}
+
+.dino{
+    position: absolute; 
+    height: 30px;
+    top: 490px;
+    left: 230px;
+    z-index: 1;
+    width: 30px;
+}
+
+.dino-img{
+    background-image: url("../image/dino.png");
+    background-size: cover;
+    height: 40px; 
+    width: 40px;
+}
+
+.cacto{
+    position: absolute; 
+    left: 100%; 
+    top: 510px;  
+    height: 25px; 
+    width: 30px;
+}
+
+.pedra{
+    position: relative;
+    background-image: url("../image/rock.png");
+    background-size: 40px, 35px;
+    bottom: 12px;
+    right: 5px;
+    height: 40px;
+    width: 35px;
+}
