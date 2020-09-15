@@ -1,3 +1,3 @@
 # Dino-game
 
-Recriação personalizada do jogo do Google Chrome 
+Recriação personalizada do jogo do dinossauro do Google Chrome 
